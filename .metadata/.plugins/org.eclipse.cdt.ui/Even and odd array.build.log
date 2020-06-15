@@ -1,0 +1,11 @@
+11:07:32 **** Incremental Build of configuration Debug for project Even and odd array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Even and odd array.o" "..\\src\\Even and odd array.c" 
+..\src\Even and odd array.c: In function 'main':
+..\src\Even and odd array.c:17:5: warning: 'main' is normally a non-static function
+..\src\Even and odd array.c: In function 'main':
+..\src\Even and odd array.c:49:6: warning: implicit declaration of function 'getch'
+gcc -o "Even and odd array.exe" "src\\Even and odd array.o" 
+
+11:07:32 Build Finished. 0 errors, 2 warnings. (took 397ms)
+

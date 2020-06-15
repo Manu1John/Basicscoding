@@ -1,0 +1,9 @@
+11:16:48 **** Incremental Build of configuration Debug for project FWOAWR14 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWOAWR14.o" "..\\src\\FWOAWR14.c" 
+..\src\FWOAWR14.c: In function 'main':
+..\src\FWOAWR14.c:16:1: warning: implicit declaration of function 'simple'
+gcc -o FWOAWR14.exe "src\\FWOAWR14.o" 
+
+11:16:48 Build Finished. 0 errors, 1 warnings. (took 524ms)
+

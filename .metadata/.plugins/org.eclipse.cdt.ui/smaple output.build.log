@@ -1,0 +1,7 @@
+11:46:30 **** Incremental Build of configuration Debug for project smaple output ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\smaple output.o" "..\\src\\smaple output.c" 
+gcc -o "smaple output.exe" "src\\smaple output.o" 
+
+11:46:31 Build Finished. 0 errors, 0 warnings. (took 311ms)
+

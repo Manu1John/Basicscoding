@@ -1,0 +1,67 @@
+/*
+ ============================================================================
+ Name        : FWOAWOR23.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void twodimensional();
+int main(void) {
+	twodimensional();
+	return EXIT_SUCCESS;
+}
+void twodimensional(){
+	int i,j,L,a[5][5],b[5][5],sum=0;
+	setbuf(stdout,NULL);
+	printf("Enter the size of array");
+	scanf("%d",&L);
+	printf("Enter the values of array 1\n");
+	for(i=0;i<L;i++)
+	{
+		for(j=0;j<L;j++)
+		{
+			scanf("%d",&a[i][j]);
+		}
+	}
+	printf("Values of array 1\n");
+	for(i=0;i<L;i++)
+	{
+		for(j=0;j<L;j++)
+		{
+			printf("%d\t",a[i][j]);
+		}
+		printf("\n");
+	}
+	printf("Enter the values of array 2\n");
+	for(i=0;i<L;i++)
+	{
+		for(j=0;j<L;j++)
+		{
+			scanf("%d",&b[i][j]);
+		}
+	}
+	printf("Values of array 2\n");
+	for(i=0;i<L;i++)
+	{
+		for(j=0;j<L;j++)
+		{
+			printf("%d\t",b[i][j]);
+		}
+		printf("\n");
+	}
+	printf("Sum of two arrays\n");
+	for(i=0;i<L;i++)
+	{
+		for(j=0;j<L;j++)
+		{
+			sum=sum+a[i][j]+b[i][j];
+			printf("%d\t",sum);
+		}
+		printf("\n");
+	}
+}

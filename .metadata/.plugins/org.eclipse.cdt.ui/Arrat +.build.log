@@ -1,0 +1,7 @@
+11:45:24 **** Incremental Build of configuration Debug for project Arrat + ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Arrat +.o" "..\\src\\Arrat +.c" 
+gcc -o "Arrat +.exe" "src\\Arrat +.o" 
+
+11:45:25 Build Finished. 0 errors, 0 warnings. (took 656ms)
+

@@ -1,0 +1,7 @@
+12:16:09 **** Incremental Build of configuration Debug for project EWOAWOR10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EWOAWOR10.o" "..\\src\\EWOAWOR10.c" 
+gcc -o EWOAWOR10.exe "src\\EWOAWOR10.o" 
+
+12:16:09 Build Finished. 0 errors, 0 warnings. (took 301ms)
+

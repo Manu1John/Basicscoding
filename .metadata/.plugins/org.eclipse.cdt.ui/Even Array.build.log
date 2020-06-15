@@ -1,0 +1,7 @@
+10:36:34 **** Incremental Build of configuration Debug for project Even Array ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Even Array.o" "..\\src\\Even Array.c" 
+gcc -o "Even Array.exe" "src\\Even Array.o" 
+
+10:36:34 Build Finished. 0 errors, 0 warnings. (took 354ms)
+

@@ -1,0 +1,9 @@
+11:48:50 **** Incremental Build of configuration Debug for project FWAWR4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWR4.o" "..\\src\\FWAWR4.c" 
+..\src\FWAWR4.c: In function 'maths':
+..\src\FWAWR4.c:42:2: warning: 'v' is used uninitialized in this function
+gcc -o FWAWR4.exe "src\\FWAWR4.o" 
+
+11:48:51 Build Finished. 0 errors, 1 warnings. (took 329ms)
+

@@ -1,0 +1,9 @@
+00:33:21 **** Incremental Build of configuration Debug for project FWAWR22 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWR22.o" "..\\src\\FWAWR22.c" 
+..\src\FWAWR22.c: In function 'desending':
+..\src\FWAWR22.c:43:2: warning: 'h' is used uninitialized in this function
+gcc -o FWAWR22.exe "src\\FWAWR22.o" 
+
+00:33:21 Build Finished. 0 errors, 1 warnings. (took 355ms)
+

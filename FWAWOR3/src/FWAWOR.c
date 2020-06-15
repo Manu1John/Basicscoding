@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : FWAWOR.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void greatest(int,int);
+int main(void) {
+	int a,b;
+	setbuf(stdout,NULL);
+	printf("Enter 2 numbers");
+	scanf("%d%d",&a,&b);
+	greatest(a,b);
+	return EXIT_SUCCESS;
+}
+void greatest(int n1,int n2){
+	if(n1>n2){
+		printf("Greatest number is :%d",n1);
+	}else{
+		printf("GReatest number is :%d",n2);
+	}
+
+

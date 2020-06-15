@@ -1,0 +1,9 @@
+20:57:43 **** Incremental Build of configuration Debug for project FWAWR20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWR20.o" "..\\src\\FWAWR20.c" 
+..\src\FWAWR20.c: In function 'arraytwo':
+..\src\FWAWR20.c:51:2: warning: 'f' is used uninitialized in this function
+gcc -o FWAWR20.exe "src\\FWAWR20.o" 
+
+20:57:43 Build Finished. 0 errors, 1 warnings. (took 565ms)
+

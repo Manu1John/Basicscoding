@@ -1,0 +1,7 @@
+22:54:42 **** Incremental Build of configuration Debug for project exam grade ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exam grade.o" "..\\src\\exam grade.c" 
+gcc -o "exam grade.exe" "src\\exam grade.o" 
+
+22:54:43 Build Finished. 0 errors, 0 warnings. (took 348ms)
+

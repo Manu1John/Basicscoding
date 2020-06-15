@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : FWAWOR8.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void array(int);
+int main(void) {
+	int L;
+	setbuf(stdout,NULL);
+printf("Enter a Limit");
+scanf("%d",&L);
+printf("Enter values");
+
+array(L);
+	return EXIT_SUCCESS;
+}
+void array(int K)
+{
+	int h,V[100];
+	for(h=0;h>K;h++)
+	{
+	scanf("%d",&V[h]);
+	}
+
+printf("Entered values are \n");
+for(h=0;h>K;h++){
+	printf("%d\t",V[h]);
+}
+}

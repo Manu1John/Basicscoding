@@ -1,0 +1,10 @@
+22:02:54 **** Incremental Build of configuration Debug for project FWAWOR12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWOR12.o" "..\\src\\FWAWOR12.c" 
+..\src\FWAWOR12.c: In function 'main':
+..\src\FWAWOR12.c:29:24: error: expected ';', ',' or ')' before 'int'
+..\src\FWAWOR12.c:41:1: error: expected declaration or statement at end of input
+..\src\FWAWOR12.c:41:1: warning: control reaches end of non-void function
+
+22:02:54 Build Failed. 2 errors, 1 warnings. (took 198ms)
+

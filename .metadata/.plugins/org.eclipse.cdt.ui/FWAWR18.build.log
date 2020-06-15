@@ -1,0 +1,10 @@
+21:55:04 **** Incremental Build of configuration Debug for project FWAWR18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWR18.o" "..\\src\\FWAWR18.c" 
+..\src\FWAWR18.c: In function 'multiply':
+..\src\FWAWR18.c:30:1: warning: control reaches end of non-void function
+..\src\FWAWR18.c:28:3: warning: 'g' may be used uninitialized in this function
+gcc -o FWAWR18.exe "src\\FWAWR18.o" 
+
+21:55:04 Build Finished. 0 errors, 2 warnings. (took 389ms)
+

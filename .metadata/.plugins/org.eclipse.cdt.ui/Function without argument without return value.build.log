@@ -1,0 +1,7 @@
+12:58:38 **** Incremental Build of configuration Debug for project Function without argument without return value ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Function without argument without return value.o" "..\\src\\Function without argument without return value.c" 
+gcc -o "Function without argument without return value.exe" "src\\Function without argument without return value.o" 
+
+12:58:39 Build Finished. 0 errors, 0 warnings. (took 376ms)
+

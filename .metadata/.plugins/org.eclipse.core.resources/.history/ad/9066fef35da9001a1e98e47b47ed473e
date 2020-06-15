@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Multidimentional.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+int	V[3][3],j,i;
+setbuf(stdout,NULL);
+printf("Enter  values");
+for(i=0;i<3;i++){
+	for(j=0;j<3;j++){
+	scanf("%d%d",&V[i][j]);
+	}
+}
+printf("Entered values are \n");
+for(i=0;i<3;i++){
+	for(j=0;j<3;j++){
+		printf("%d\t",V[i][j]);
+	}
+	printf("\n");
+}
+	return EXIT_SUCCESS;
+}

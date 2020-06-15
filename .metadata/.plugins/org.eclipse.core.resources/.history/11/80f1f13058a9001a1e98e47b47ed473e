@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : Search.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int L,P[100],f,S,flag=0;
+	setbuf(stdout,NULL);
+printf("Enter a Limit");
+scanf("%d",&L);
+printf("Enter values");
+for(f=0;f<L;f++){
+	scanf("%d",&P[f]);
+}
+printf("Enter a Search key");
+scanf("%d",&S);
+for(f=0;f<L;f++){
+	if(S==P[f]){
+		flag=1;
+		break;
+	}
+}if(flag==0){
+	printf("Value found at position %d",f+1);
+}else{
+	printf("Value not found");
+}
+	return EXIT_SUCCESS;
+}

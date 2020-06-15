@@ -1,0 +1,9 @@
+22:25:04 **** Incremental Build of configuration Debug for project FWOAWOR8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWOAWOR8.o" "..\\src\\FWOAWOR8.c" 
+..\src\FWOAWOR8.c: In function 'main':
+..\src\FWOAWOR8.c:16:1: warning: control reaches end of non-void function
+gcc -o FWOAWOR8.exe "src\\FWOAWOR8.o" 
+
+22:25:05 Build Finished. 0 errors, 1 warnings. (took 421ms)
+

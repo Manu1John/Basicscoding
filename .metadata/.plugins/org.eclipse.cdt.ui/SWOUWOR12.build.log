@@ -1,0 +1,9 @@
+10:23:51 **** Incremental Build of configuration Debug for project SWOUWOR12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\SWOUWOR12.o" "..\\src\\SWOUWOR12.c" 
+..\src\SWOUWOR12.c: In function 'String':
+..\src\SWOUWOR12.c:22:1: error: too many arguments to function 'gets'
+c:\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/include/stdio.h:205:17: note: declared here
+
+10:23:52 Build Failed. 1 errors, 0 warnings. (took 286ms)
+

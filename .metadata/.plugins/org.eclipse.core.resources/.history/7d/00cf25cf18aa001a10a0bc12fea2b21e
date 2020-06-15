@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : String.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int Limit;
+	char Name;
+	setbuf(stdout,NULL)
+printf("Enter Character Limit");
+scanf("%d",&Limit);
+printf("Enter a Name");
+scanf("%s",Name);
+printf("Entered Name is :%s",Name);
+	return EXIT_SUCCESS;
+}

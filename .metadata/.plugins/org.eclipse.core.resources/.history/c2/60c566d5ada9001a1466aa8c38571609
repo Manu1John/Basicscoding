@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : Even.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int V[100],i,L,Ev;
+	setbuf(stdout,NULL);
+printf("Enter Array Limit");
+scanf("%d",&L);
+printf("Enter values ");
+for(i=0;i<L;i++){
+	scanf("%d",&V[i]);
+}
+for(i=0;i<L;i++){
+if(V[i]%2==0){
+scanf("%d",&Ev);
+}
+}
+if(V[i]%2==0){
+	printf("%d",Ev);
+}
+return EXIT_SUCCESS;
+}

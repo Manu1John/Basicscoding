@@ -1,0 +1,7 @@
+13:14:36 **** Incremental Build of configuration Debug for project Sorting 2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sorting 2.o" "..\\src\\Sorting 2.c" 
+gcc -o "Sorting 2.exe" "src\\Sorting 2.o" 
+
+13:14:36 Build Finished. 0 errors, 0 warnings. (took 569ms)
+

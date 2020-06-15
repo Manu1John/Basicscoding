@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : FWAWOR13.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int n1,n2;
+	setbuf(stdout,NULL);
+	printf("Enter 2 numbers");
+	scanf("%d%f",&n1,&n2);
+	sum(n1,n2);
+	return EXIT_SUCCESS;
+}
+void sum(int a,float b ){
+	float sum;
+	sum=a+b;
+	printf("Sum is: %f",sum);
+}

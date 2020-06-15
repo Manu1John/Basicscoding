@@ -1,0 +1,9 @@
+12:50:01 **** Incremental Build of configuration Debug for project FWAWR5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWR5.o" "..\\src\\FWAWR5.c" 
+..\src\FWAWR5.c: In function 'option':
+..\src\FWAWR5.c:40:2: warning: 'x' is used uninitialized in this function
+gcc -o FWAWR5.exe "src\\FWAWR5.o" 
+
+12:50:01 Build Finished. 0 errors, 1 warnings. (took 302ms)
+

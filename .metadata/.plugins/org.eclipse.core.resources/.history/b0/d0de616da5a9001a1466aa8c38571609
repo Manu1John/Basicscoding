@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : 2Array.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int L,i,V[100],p,temp,flag=0;
+	setbuf(stdout,NULL);
+printf("Enter Array limit");
+scanf("%d",&L);
+printf("Enter values of array1");
+for(i=0;i<L;i++){
+	scanf("%d",&V[i]);
+}
+printf("Enter values of array2 ");
+for(p=0;p<L;p++){
+	scanf("%d",&V[p]);
+}
+if(V[i]==V[p]){
+	temp=V[i];
+	V[i]=V[p];
+	V[p]=temp;
+
+	}
+
+printf("Array1\t");
+for(i=0;i<L;i++){
+		printf("%d\t",V[i]);
+}
+printf("Array 2\t");
+	for(p=0;p<L;p++){
+		printf("%d\t",V[p]);
+	}
+
+
+	return EXIT_SUCCESS;
+}

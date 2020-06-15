@@ -1,0 +1,8 @@
+22:44:41 **** Incremental Build of configuration Debug for project exam grade2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\exam grade2.o" "..\\src\\exam grade2.c" 
+..\src\exam grade2.c: In function 'main':
+..\src\exam grade2.c:21:8: error: switch quantity not an integer
+
+22:44:41 Build Failed. 1 errors, 0 warnings. (took 125ms)
+

@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : FWOAWOR20.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void twoarray();
+int main(void) {
+	twoarray();
+	return EXIT_SUCCESS;
+}
+void twoarray()
+{
+	int L,i,j,a[100],b[100],temp;
+	setbuf(stdout,NULL);
+	printf("enter a Limit");
+	scanf("%d",&L);
+	printf("Enter values of array 1");
+	for(i=0;i<L;i++)
+	{
+		scanf("%d",&a[i]);
+	}
+	printf("Enter values of array 2");
+	for(j=0;j<L;j++)
+	{
+		scanf("%d",&b[j]);
+	}
+	if(a[i]>b[j])
+	{
+		temp=a[i];
+		a[i]=b[j];
+		b[j]=temp;
+	}
+	printf("values of array 1 %d,",a[i]);
+for(i=0;i<L;i++)
+{
+	printf("%d",a[i]);
+}
+printf("values of array 2");
+for(j=0;j<L;j++)
+{
+	printf("%d",b[j]);
+}
+}

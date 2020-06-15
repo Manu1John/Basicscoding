@@ -1,0 +1,7 @@
+17:26:33 **** Incremental Build of configuration Debug for project Odd sum ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Odd sum.o" "..\\src\\Odd sum.c" 
+gcc -o "Odd sum.exe" "src\\Odd sum.o" 
+
+17:26:34 Build Finished. 0 errors, 0 warnings. (took 406ms)
+

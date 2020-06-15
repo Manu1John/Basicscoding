@@ -1,0 +1,28 @@
+/*
+ ============================================================================
+ Name        : FWOAWOR18.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void multiplication();
+int main(void) {
+
+	multiplication();
+	return EXIT_SUCCESS;
+}
+void multiplication(){
+	int num,i,L=10;
+	setbuf(stdout,NULL);
+	printf("Enter a number");
+	scanf("%d",&num);
+	for(i=1;i<L;i++){
+			printf("%d*%d=%d\n",i,num,num*i);
+		}
+	}
+

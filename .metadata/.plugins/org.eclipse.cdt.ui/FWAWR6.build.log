@@ -1,0 +1,7 @@
+20:00:14 **** Incremental Build of configuration Debug for project FWAWR6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWR6.o" "..\\src\\FWAWR6.c" 
+gcc -o FWAWR6.exe "src\\FWAWR6.o" 
+
+20:00:14 Build Finished. 0 errors, 0 warnings. (took 304ms)
+

@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : FWAWOR21.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void oddarray(int);
+int main(void) {
+	int L;
+	setbuf(stdout,NULL);
+	printf("Enter a Limit");
+	scanf("%d",&L);
+oddarray(L);
+	return EXIT_SUCCESS;
+}
+void oddarray(int K){
+	int odd,p,a[100];
+	printf("Enter values");
+	for(p=0;p<K;p++){
+		scanf("%d",&a[p]);
+	}
+	for(p=0;p<K;p++){
+		if(a[p]%2==1){
+			odd ++;
+		}
+	}
+	printf("Number of odd numbers in array %d",odd);
+}

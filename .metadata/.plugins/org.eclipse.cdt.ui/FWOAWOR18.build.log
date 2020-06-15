@@ -1,0 +1,7 @@
+21:38:58 **** Incremental Build of configuration Debug for project FWOAWOR18 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWOAWOR18.o" "..\\src\\FWOAWOR18.c" 
+gcc -o FWOAWOR18.exe "src\\FWOAWOR18.o" 
+
+21:38:58 Build Finished. 0 errors, 0 warnings. (took 390ms)
+

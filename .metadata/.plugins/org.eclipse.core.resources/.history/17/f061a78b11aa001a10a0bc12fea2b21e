@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Even.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int i,L,V[100],even=0,odd=0;
+	setbuf(stdout,NULL);
+	printf("Enter Array limit");
+	scanf("%d",&L);
+	printf("Enter values");
+	for(i=0;i<L;i++){
+	scanf("%d",&V[i]);
+	}
+	for(i=0;i<L;i++){
+		if(i%2==0){
+			even++;
+		}else{
+			odd++;
+		}
+	}printf(" Even numbers in an Array %d",even);
+	printf("\n");
+	printf("Odd numbers in an Array %d",odd);
+	return EXIT_SUCCESS;
+}

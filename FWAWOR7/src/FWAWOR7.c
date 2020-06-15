@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : FWAWOR.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void pattern(int);
+int main(void) {
+	int J;
+	setbuf(stdout,NULL);
+printf("enter a limit");
+scanf("%d",&J);
+pattern(J);
+	return EXIT_SUCCESS;
+}
+void pattern(int L){
+	int i,j;
+	for(i=1;i<=L;i++){
+		for(j=1;j<i;j++){
+			printf("%d",j);
+		}
+		printf("\n");
+	}
+}

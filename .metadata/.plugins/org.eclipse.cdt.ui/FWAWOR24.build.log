@@ -1,0 +1,9 @@
+22:38:10 **** Incremental Build of configuration Debug for project FWAWOR24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWOR24.o" "..\\src\\FWAWOR24.c" 
+..\src\FWAWOR24.c: In function 'displayArray':
+..\src\FWAWOR24.c:41:3: warning: 'L' is used uninitialized in this function
+gcc -o FWAWOR24.exe "src\\FWAWOR24.o" 
+
+22:38:11 Build Finished. 0 errors, 1 warnings. (took 722ms)
+

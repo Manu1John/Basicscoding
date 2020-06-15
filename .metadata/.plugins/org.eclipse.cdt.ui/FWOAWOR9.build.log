@@ -1,0 +1,12 @@
+11:43:05 **** Incremental Build of configuration Debug for project FWOAWOR9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWOAWOR9.o" "..\\src\\FWOAWOR9.c" 
+..\src\FWOAWOR9.c: In function 'main':
+..\src\FWOAWOR9.c:15:1: warning: implicit declaration of function 'arraysum'
+..\src\FWOAWOR9.c: At top level:
+..\src\FWOAWOR9.c:18:6: warning: conflicting types for 'arraysum'
+..\src\FWOAWOR9.c:15:1: note: previous implicit declaration of 'arraysum' was here
+gcc -o FWOAWOR9.exe "src\\FWOAWOR9.o" 
+
+11:43:06 Build Finished. 0 errors, 2 warnings. (took 978ms)
+

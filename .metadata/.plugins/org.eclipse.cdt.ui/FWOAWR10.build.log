@@ -1,0 +1,9 @@
+12:41:18 **** Incremental Build of configuration Debug for project FWOAWR10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWOAWR10.o" "..\\src\\FWOAWR10.c" 
+..\src\FWOAWR10.c: In function 'arraysearch':
+..\src\FWOAWR10.c:48:1: warning: control reaches end of non-void function
+gcc -o FWOAWR10.exe "src\\FWOAWR10.o" 
+
+12:41:18 Build Finished. 0 errors, 1 warnings. (took 314ms)
+

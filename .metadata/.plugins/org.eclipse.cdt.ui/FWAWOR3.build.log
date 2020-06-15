@@ -1,0 +1,8 @@
+10:56:39 **** Rebuild of configuration Debug for project FWAWOR3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\FWAWOR.o" "..\\src\\FWAWOR.c" 
+..\src\FWAWOR.c: In function 'greatest':
+..\src\FWAWOR.c:27:2: error: expected declaration or statement at end of input
+
+10:56:39 Build Failed. 1 errors, 0 warnings. (took 121ms)
+

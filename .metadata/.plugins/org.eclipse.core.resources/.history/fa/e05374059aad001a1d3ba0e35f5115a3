@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : FWOAWOR21.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void even();
+int main(void) {
+even();
+	return EXIT_SUCCESS;
+}
+void even(){
+	int even,i,v[100],L;
+	setbuf(stdout,NULL);
+	printf("Enter a limit");
+	scanf("%d",&L);
+	printf("Enter values of array");
+	for(i=0;i<L;i++)
+	{
+		scanf("%d",&v[i]);
+		if(i%2==0)
+		{
+		even ++;
+		}
+	}
+	printf("Number of even no. in given array %d",even++);
+}

@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : FWOAWOR8.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void array();
+int main(void) {
+array();
+}
+void array()
+{
+	int L,a[100],p;
+	setbuf(stdout,NULL);
+	printf("Enter array limit");
+	scanf("%d",&L);
+	printf("Enter values");
+	for(p=0;p<L;p++)
+	{
+		scanf("%d",&a[p]);
+	}
+	printf("Entered values are \n");
+	for(p=0;p<L;p++){
+		printf("%d\t",a[p]);
+	}
+}

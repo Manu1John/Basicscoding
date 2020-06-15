@@ -1,0 +1,45 @@
+/*
+ ============================================================================
+ Name        : FWOAWOR11.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+void sort();
+int main(void) {
+sort();
+	return EXIT_SUCCESS;
+}
+void sort(){
+	int temp,i,v[100],j,L;
+	setbuf(stdout,NULL);
+	printf("Enter a limit");
+	scanf("%d",&L);
+	printf("Enter  values");
+	for(i=0;i<L;i++)
+	{
+		scanf("%d",&v[i]);
+	}
+	for(i=0;i<L-1;i++)
+	{
+		for(j=i+1;j<L;j++)
+		{
+			if(V[i]<V[j])
+			{
+				temp=v[i];
+				v[i]=v[j];
+				v[j]=temp;
+			}
+		}
+	}
+	printf("Sorted values are \n")
+	for(i=0;i<L;i++)
+	{
+		printf("%d\t",v[i]);
+	}
+}
